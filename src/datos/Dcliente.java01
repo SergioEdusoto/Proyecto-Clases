@@ -1,0 +1,31 @@
+package datos;
+
+/**
+ *
+ * @author PC-26
+ */
+public class Dcliente {
+
+    private String nombre;
+    private String apellido;
+    private char sexo;
+        public Dcliente() {
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public void setSexo(char sexo) {
+        this.sexo = sexo;
+    }
+        public void registrarCliente(){
+    System.out.println("Capa datos"+this.nombre+this.apellido+this.sexo);
+
+    }
+
+}
